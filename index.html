@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./media-queries.css">
 
     <script src="https://kit.fontawesome.com/a25d73a29e.js" crossorigin="anonymous"></script>
 </head>
@@ -25,7 +26,7 @@
 
             <a href="#" class="main-logo"><img src="./assets/asset 1.png" alt="Brand-Logo"></a>   
 
-            <div class="nav-links ">
+            <div class="nav-links " id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Products</a></li>
                     <li><a href="#" class="hover-link">Customer</a></li>
@@ -35,6 +36,7 @@
                     <li><a href="#" class="hover-link primary-button">Sign out</a></li>
                 </ul>
             </div>
+            <a href="#" class="nav-toggle" id="nav-toggle" onclick="nav-link-arrive()"><i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
 
@@ -135,7 +137,7 @@
         </div>
     </section>
     <section class="big-features-section">
-        <div class="container flex big-feature-container" style="flex-direction: row-reverse;">
+        <div class="container flex big-feature-container" id="big-feature-2">
             <div class="feature-img">
                 <img src="assets/asset 21.png" alt="">
             </div>
@@ -163,7 +165,7 @@
     <section class="examples-section">
         <div class="container">
             
-                <div class="features-header flex">
+                <div class="features-header example-header flex">
                     <h2>One platform, endless possibilities</h2>
                     <a href="#" class="secondary-button">See more examples <i class="fa-solid fa-right-long"></i></a>
                 </div>
@@ -263,6 +265,8 @@
         <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
         </div>    
     </div>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
