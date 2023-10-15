@@ -196,6 +196,9 @@ header{
     max-width: 30%;
     text-align: center;
 }
+.feature-card img{
+    width: 60px;
+}
 
 /* Big featur section */
 
@@ -255,4 +258,97 @@ header{
 
 .example-card:hover{
     box-shadow: 0 0 10px #888;
+}
+
+/* Cta section */
+.cta-section{
+    background-color: #183b54;
+    /* margin-bottom: 40px; */
+}
+.cta-section-container{
+    justify-content: space-evenly;
+    padding: 30px 0px 30px;
+    
+}
+
+
+.left-cta{
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+.left-cta p{
+    color: #b9cde4;
+    padding: 30px 0 35px;
+}
+.left-cta ul{
+    list-style: disc;
+    color: #b9cde4;
+    margin-left: 20px;
+}
+.next-para{
+    color: white !important;
+    font-weight: 500;
+    padding:0px;
+    margin-bottom: 16px;
+    
+}
+.right-cta img{
+    width: 110%;
+    
+}
+.ul-summary{
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+.left-ul , .right-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-sizing:content-box;
+}
+
+.cta-btn{
+    gap: 10px;
+
+}
+.btn-2{
+    color: #b9cde4;
+}
+
+/* Footer */
+
+.footer-containerr{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+    
+}
+
+/* Sub footer */
+
+.sub-footer{
+    background-color: #b9cde4;
+    padding-block: 10px;
+}
+.sub-footer-container{
+    justify-content: center;
+    gap: 30px;
+   
 }
